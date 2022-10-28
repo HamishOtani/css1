@@ -25,14 +25,22 @@
 
 #font-title{
     color: red;
-    font-family: メイリオ, Meiryo, sans-serif;
+    font-family:'メイリオ';
     border-bottom: dotted 10px blue;
 }
 
 .web{
     color: rgb(165, 165, 165);
     font-size: 20px;
-    font-family: メイリオ, Meiryo, sans-serif;
+    font-family: 'メイリオ';
+}
+
+.text{
+    font-family: 'メイリオ';
+}
+
+.contact{
+    font-family: 'メイリオ';
 }
 
 .info-border{
@@ -46,28 +54,29 @@
     color: black;
     font-size: 15px;
     font-weight:bold;
-    font-family: メイリオ, Meiryo, sans-serif;
+    font-family: 'メイリオ';
 }
 
 .email{
     color: black;
     font-size: 15px;
     font-weight:bold;
-    font-family: メイリオ, Meiryo, sans-serif;
+    font-family: 'メイリオ';
 }
 
-#email{
+.mail{
     color: rgb(5, 203, 28);
     font-size: 15px;
     font-weight:bold;
     font-family:serif;
+    text-decoration-line:none; 
 }
 
 .hp{
     color: black;
     font-size: 15px;
     font-weight:bold;
-    font-family: メイリオ, Meiryo, sans-serif;
+    font-family: 'メイリオ';
 }
 
 #hp{
@@ -75,6 +84,6 @@
     font-size: 15px;
     font-weight:bold;
     font-family:serif;
-    text-decoration: underline solid;
-    
+    text-decoration:underline rgb(165, 30, 219) 2px;
 }
+

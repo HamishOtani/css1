@@ -6,34 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSSでよく使うスタイル</title>
     <link rel="stylesheet" href="./style.css">
-</head>
+</head>target="_blank"
 <body>
     <h1>見出しの<span id="title">色を変更する</span></h1>
     <p>この文章はダミーテキストです。<span class="marker">マーカーを引きます。</span></p>
     <div class="parent-button">
-        <p class="child-button">購入</p>
+        <a href="https://tech-geek.jp" target="_blank"><p class="child-button">購入</p></a>
     </div>
     <p>netlifyテスト用テキスト</p>
     <br>
     <br>
     <br>
-    <header> 
+    <main> 
         <h1 id="font-title">遊ゴシック体のフォントファミリーを使ったh1で作成</h1>
-    </header>
+    </main>
     <main>
         <h3 class="web">Web制作のつぶやき</h3>
-        <p>自分で調べて自由なデザインをできるようになることは、とても大切なことです。</p>
-        <p>気になるサイトのデザインを見つけた時、どんなコードなのか調べてみるのもいいですね。</p>
+        <p class="text">自分で調べて自由なデザインをできるようになることは、とても大切なことです。</p>
+        <p class="text">気になるサイトのデザインを見つけた時、どんなコードなのか調べてみるのもいいですね。</p>
     </main>
     <footer>
-        <h4>&#x1f338;お問い合わせ</h4>
+        <h4 class="contact">&#x1f338;お問い合わせ</h4>
         <div class="info-border">
             <ul>
                 <li class="info">お問い合わせ先:テックギーク事務所</li>
-                <li class="email"> メールアドレス:<span id="email">info@tech-geek.jp</span></li>
-                <li class="hp">ホームページ:<span id="hp">https://tech-geek.jp</span></li>
+                <li class="email"> メールアドレス: <a class="mail" href="https://tech-geek.jp" target="_blank"><span id="email">info@tech-geek.jp</span></a></li>
+                <li class="hp">ホームページ:<a href="https://tech-geek.jp" target="_blank"><span id="hp">https://tech-geek.jp</span></a></li>
             </ul>            
         </div>
     </footer>
 </body>
 </html>
+
